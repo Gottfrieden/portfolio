@@ -7,6 +7,7 @@ class Project {
     this.company_description = project.company_description;
     this.project_description = project.project_description;
     this.link = project.link;
+    this.category = project.category;
     this.slug = project.slug;
     this.tags = project.tags;
     this.industry = project.industry;
@@ -35,8 +36,8 @@ class Project {
       });
   }
 
-  static async nameAlreadyExists (name) {
-    return db.query('SELECT * FROM projects WHERE name = ?', [name])
+  static async nameAlreadyExists (company_name) {
+    return db.query('SELECT * FROM projects WHERE company_name = ?', [company_name])
       .then(rows => {
         if (rows.length) {
           return Promise.resolve(true);
@@ -52,8 +53,8 @@ class Project {
 
   static async updateById (id, project) {
     return db.query(
-      'UPDATE projects SET company_name = ?, company_description = ?, project_description = ?, link = ?, slug = ?, tags = ?, industry = ?, year = ?, role = ?, image = ?, banner_image = ?, gomepage_screen = ?, page_gif = ? WHERE id = ?',
-      [project.company_name, project.company_description, project.project_description, project.link, project.slug, project.tags, project.industry, project.year, project.role, project.image, project.banner_image, project.homepage_screen, project.page_gif, id]
+      'UPDATE projects SET company_name = ?, company_description = ?, project_description = ?, link = ?, category = ?, slug = ?, tags = ?, industry = ?, year = ?, role = ?, image = ?, banner_image = ?, homepage_screen = ?, page_gif = ? WHERE id = ?',
+      [project.company_name, project.company_description, project.project_description, project.link, project.category, project.slug, project.tags, project.industry, project.year, project.role, project.image, project.banner_image, project.homepage_screen, project.page_gif, id]
     ).then(() => this.findById(id));
   }
 

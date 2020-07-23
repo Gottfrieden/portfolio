@@ -45,7 +45,7 @@
     text-transform:uppercase;
     z-index:9;
     margin-top:12px;
-    max-width:103px;
+    max-width:150px;
 }
 .project-banner .project-intro-container a:after {
     content:'';

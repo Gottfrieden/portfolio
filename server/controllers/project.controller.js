@@ -33,6 +33,7 @@ class ProjectsController {
         company_description: p.company_description,
         project_description: p.project_description,
         link: p.link,
+        category: p.category,
         slug: p.slug,
         tags: p.tags,
         industry: p.industry,
@@ -43,6 +44,7 @@ class ProjectsController {
         homepage_screen: p.homepage_screen,
         page_gif: p.page_gif
       }));
+      console.log(data);
       res.send({ data });
     } catch (err) {
       res.status(500).send({

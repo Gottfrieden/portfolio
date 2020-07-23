@@ -24,7 +24,7 @@ function App() {
           <Header />
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/portfolio/:slug' component={Project} />
+            <Route exact path='/portfolio/:id' component={Project} />
             <Route exact path='/about' component={About} />
             <Route exact path='/portfolio' component={Portfolio} />
             <Route exact path='/contact' component={Contact} />

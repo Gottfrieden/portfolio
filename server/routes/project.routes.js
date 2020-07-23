@@ -7,5 +7,5 @@ router.get('/:id', projectsController.findOne);
 router.put('/:id', projectsController.update);
 router.delete('/:id', projectsController.delete);
 
-module.export = router;
+module.exports = router;
 
