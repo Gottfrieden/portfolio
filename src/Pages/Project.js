@@ -60,7 +60,7 @@ export default function Project(props) {
                     </React.Fragment>
                 )
             })}
-            {Portfolio.projects.filter(project => project.id === currentProjectID + 1).map(p => {
+            {Portfolio.projects.length < 6 ? Portfolio.projects.filter(project => project.id === currentProjectID + 1).map(p => {
                 return (
                     <Link to={`/portfolio/${p.slug}`} key={p.id}>
                         <div className='next-project-container' onClick={handleCurrentProjectID}>
@@ -70,7 +70,13 @@ export default function Project(props) {
                         </div>
                     </Link>
                 )
-            })
+            }) : <Link to='/contact'>
+                    <div className='next-project-container'>
+                        <div className='your-project-bg-container' />
+                        <span>Let's get in touch</span>
+                        <h2>Your project</h2>
+                    </div>
+                </Link>
             }
         </>
     )

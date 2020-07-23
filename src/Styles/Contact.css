@@ -1,0 +1,80 @@
+.contact-page-container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-form-container {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+}
+form {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+input, select, textarea {
+    width:100%;
+    border:none;
+    border-bottom:1px solid var(--accentColor);
+    background-color:transparent;
+    margin-bottom:20px;
+    color:white;
+    outline:none;
+    font-size:18px;
+    font-family:Gilroy;
+    padding-bottom:8px;
+}
+input[type="submit"] {
+    color: white;
+    border: 1px solid var(--accentColor);
+    text-decoration: none;
+    width: 100px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding-top: 7px;
+    cursor:pointer;
+} 
+input[type="submit"]:hover {
+    background-color:var(--accentColor);
+}
+::placeholder {
+    color:white;
+    font-family:Gilroy;
+    font-size:18px;
+}
+textarea {
+    height:200px;
+}
+.phone-mail-container {
+    width:100%;
+    display:flex;
+}
+.phone-mail-container input {
+    width:48%;
+}
+.phone-mail-container input:nth-child(1) {
+    margin-right:2%;
+}
+.phone-mail-container input:nth-child(2) {
+    margin-left:2%;
+}
+select option {
+    background-color:var(--backgroundColor);
+    font-family:Gilroy;
+    border:1px solid var(--accentColor);
+}
+select option:hover {
+    background-color:var(--accentColor);
+}

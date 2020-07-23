@@ -10,8 +10,10 @@ import Home from './Pages/Home';
 import Project from './Pages/Project';
 import About from './Pages/About';
 import Portfolio from './Pages/Portfolio';
+import Contact from './Pages/Contact';
 import Footer from './Components/Footer';
 import ScrollToTop from './Components/ScrollToTop';
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
             <Route exact path='/portfolio/:slug' component={Project} />
             <Route exact path='/about' component={About} />
             <Route exact path='/portfolio' component={Portfolio} />
+            <Route exact path='/contact' component={Contact} />
           </Switch>
           <Footer />
         </div>
