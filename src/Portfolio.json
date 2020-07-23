@@ -1,0 +1,115 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Movie Match",
+            "description": "Movie Match helps two to plan their next movie party by providing them inspiration and finding movies they both agree to watch thanks to its matching systyem.",
+            "project": "I've been working on Movie Match during my training at Wild Code School in Lyon with 3 other students. This project has been done in 6 weeks time.",
+            "url": "https://wildmoviematch.netlify.app/",
+            "slug": "movie-match",
+            "work": [
+                "Design",
+                "Branding",
+                "Development"
+            ],
+            "category": "Website",
+            "industry": "Cinema",
+            "year": "2020",
+            "role": "Designer - UX/UI - Developer",
+            "image": "moviematch.jpg",
+            "banner_image": "moviematch-banner.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Ideasworx",
+            "description": "Ideasworx is a digital agency based in Melbourne, Australia, specialised in branding, websites, videography, print communication, digital marketing and insights & optimisation.",
+            "project": "I\u2019ve been in charge of creating Ideasworx website, from design to development, in collaboration with Albert Samuels, Art Director of the agency.",
+            "url": "https://ideasworx.com/",
+            "slug": "ideasworx",
+            "work": [
+                "Design",
+                "Development"
+            ],
+            "category": "Website",
+            "industry": "Digital Marketing",
+            "year": "2019",
+            "role": "Designer - UX/UI - Developer",
+            "image": "ideasworx.jpg",
+            "banner_image": "ideasworx-banner.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Appart'Ambiance",
+            "description": "Appart\u2019Ambiance is a real estate specialised in short-term and long-term lease. The agency manages and offers a full range of furnished apartments, fully equiped and a full range of services for professionals, travelers and owners.  Created in 2006, Appart\u2019Ambiance is now the leader of furnished apartments rentals in Lyon.",
+            "project": "I\u2019ve been working for Appart\u2019Ambiance for almost 2 years as digital project manager. I was in charge of multiple digital aspects of its marketing strategy, including SEO, copywriting, E-mailing, community management, web development and did some print communication as well.",
+            "url": "http://www.appart-ambiance.com",
+            "slug": "appart-ambiance",
+            "work": [
+                "SEO",
+                "Marketing",
+                "Communication",
+                "Social Media"
+            ],
+            "industry": "Real Estate",
+            "year": "2016 - 2018",
+            "role": "Digital Project Manager",
+            "category": "Marketing",
+            "image": "appart-ambiance.jpg",
+            "banner_image": "appart-ambiance-banner.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Umbrella Health",
+            "description": "Umbrella Health is a health company animated by the vision of a new future in healthcare that is patient focused and made easy to navigate through quality support.",
+            "project": "I\u2019ve been working on building their website, keeping in mind that it would be used by a wide range of clients. Technology being a key point of the strategy, i developed a fully responsive website in harmony with UX\/UI design fundamentals.",
+            "url": "https://umbrellahealth.com.au/",
+            "slug": "umbrella-health",
+            "work": [
+                "Design",
+                "Development"
+            ],
+            "industry": "Health",
+            "year": "2019",
+            "role": "Designer - UX/UI - Developer",
+            "category": "Website",
+            "image": "umbrellahealth.jpg",
+            "banner_image": "umbrella-banner.jpg"
+        },
+        {
+            "id": 5,
+            "name": "C2 Capital",
+            "description": "C2 Capital is an Australian and Asian focused boutique alternative asset investment firm. Founded in 2016, the company gained quick traction and was rethinking its whole branding.",
+            "project": "Founded in 2016, C2 Capital gained quick traction and was re-thinking its whole branding. I was in charge of developing their website in website in a very short time as they were having a showcase 3 weeks later. Challenge done.",
+            "url": "https://ideasworx.com/",
+            "slug": "c2-capital",
+            "work": [
+                "Design",
+                "Development"
+            ],
+            "industry": "Investment, Finance",
+            "year": "2019",
+            "role": "Developer",
+            "category": "Website",
+            "image": "c2capital.jpg",
+            "banner_image": "c2capital-banner.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Hubert Crabières",
+            "description": "Hubert Crabieres is a Parisian photographer based in Argenteuil, France. His images oscillate between their potential autonomy and their necessary inscription as a whole.",
+            "project": "I\u2019ve been working closely with Hubert to keep consistency between his work and the way it could be showcase on his website. Pictures are organised by month, no matter the year they have been taken. In that way, they appear as twelve small series which communicate together in porous categories.",
+            "url": "http://www.hubertcrabieres.fr/",
+            "slug": "hubert-crabieres",
+            "work": [
+                "Design",
+                "Development"
+            ],
+            "industry": "Fashion, Photography",
+            "year": "2017",
+            "role": "Developer",
+            "category": "Website",
+            "image": "hubertcrabieres.jpg",
+            "banner_image": "hubertcrabieres4.jpg"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  padding: 0 100px;
+  position: absolute;
+  z-index: 9999999999;
+  width: calc(100% - 200px);
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+.App:before {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  content:'';
+  background-image:url('../Images/noise.gif');
+  opacity:0.05;
+  z-index:-1;
+}
+.invisible {
+  display:none;
+}
+ 
+@media all and (max-width:768px) {
+  .App {
+    width:100%;
+    padding:0px;
+  }
+
+}

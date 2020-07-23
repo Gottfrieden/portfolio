@@ -1,0 +1,30 @@
+.footer-container {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.footer-container .contact-icon-container {
+    width:20px;
+    height:20px;
+    margin:0 20px;
+    display:block;
+}
+.footer-container .contact-icon-container.email, .footer-container .contact-icon-container.github, .footer-container .contact-icon-container.linkedin {
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.footer-container .contact-icon-container.email {
+    background-image:url('../Images/email-contact-white.svg');
+}
+.footer-container .contact-icon-container.github {
+    background-image:url('../Images/github-contact-white.svg');
+}
+.footer-container .contact-icon-container.linkedin {
+    background-image:url('../Images/linkedin-contact-white.svg');
+}
